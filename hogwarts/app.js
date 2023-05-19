@@ -47,4 +47,36 @@ $(() => {
   const $li6 = $("<li>");
   $ul.append($li6.text("Bertie Bott's Every Flavor [Jelly] Beans."));
   $container.append($ul);
+
+  //Year 4
+  const $h5 = $("<h5>").text("Spring 2017");
+  $container.append($h5);
+  //create table
+
+  const $table = $("<table>");
+
+  const $tr1 = $("<tr>");
+  const $th1 = $("<th>").text("Day");
+  const $th2 = $("<th>").text("Classes");
+  $tr1.append($th1, $th2);
+
+  // add first day that I took the class
+  const $tr2 = $("<tr>");
+  const $td3 = $("<td>").text("Monday");
+  const $td4 = $("<td>").text("History");
+  $tr2.append($td3, $td4);
+  // add second day that I took the class
+  const $tr3 = $("<tr>");
+  const $td5 = $("<td>").text("Tusday");
+  const $td6 = $("<td>").text("Herbology");
+  $tr3.append($td5, $td6);
+  // add third day that I took the class
+  const $tr4 = $("<tr>");
+  const $td7 = $("<td>").text("Wednesday");
+  const $td8 = $("<td>").text("Transfiguration");
+  $tr3.append($td7, $td8);
+  //append roes to table
+  $table.append($tr1, $tr2, $tr3, $tr4);
+  //append table to container
+  $container.append($table);
 });

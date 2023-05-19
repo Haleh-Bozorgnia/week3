@@ -11,3 +11,10 @@ body{
 li{
     list-style: none;
 }
+table, th,td{
+border: gray 1px solid;
+}
+table{
+    margin:5px auto;
+}
+
