@@ -114,4 +114,21 @@ $(() => {
   //add an attribute of color:CHARTREUSE
   //Fix your pet's leash by removing the class of cabbage
   $li5.removeClass("cabbage");
+
+  //Day 7
+  //Update your class schedule to read 'Fall 2018'
+  $h5.text("Fall 2018");
+  //Append a list item with the text 'Butter beer' as the first list item inside your unordered list with the value of trunk
+
+const $li0 = $("<li>");
+$ul.prepend($li0.text("butter beer"));
+
+// Get a new storage container for your stuff; replace the unodered list's property of trunk with a new property of chest
+const $newdiv = $ ("<div>")
+$ul.attr("storage","chest")
+
+// Add some CSS to your page. Feel free to experiment and make this page your own
+
+// Take a screenshot of your page and add it to your homework folder
+
 });
